@@ -1,0 +1,52 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de site",
+      "type": "income",
+      "category": "Venda",
+      "price": 14000,
+      "createdAt": "2022-07-29T19:36:44.505Z"
+    },
+    {
+      "id": 2,
+      "description": "Hambúrguer",
+      "type": "outcome",
+      "category": "Alimentação",
+      "price": 50,
+      "createdAt": "2022-07-29T19:30:44.505Z"
+    },
+    {
+      "description": "n0va",
+      "price": 1000,
+      "type": "income",
+      "category": "forte",
+      "createdAt": "2024-05-29T14:13:20.375Z",
+      "id": 3
+    },
+    {
+      "description": "n0va",
+      "price": 1000,
+      "type": "income",
+      "category": "forte",
+      "createdAt": "2024-05-29T14:13:27.527Z",
+      "id": 4
+    },
+    {
+      "description": "Luiza ",
+      "price": 10,
+      "category": "chocolate",
+      "type": "income",
+      "createdAt": "2024-05-29T14:31:46.764Z",
+      "id": 5
+    },
+    {
+      "description": "Luna ",
+      "price": 5,
+      "category": "morango",
+      "type": "income",
+      "createdAt": "2024-05-29T14:32:26.660Z",
+      "id": 6
+    }
+  ]
+}

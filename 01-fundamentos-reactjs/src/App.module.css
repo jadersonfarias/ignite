@@ -1,0 +1,22 @@
+.wrapper {
+    max-width: 70rem;
+    margin: 2rem auto;
+    padding: 0 1rem;
+
+    display: grid;
+    grid-template-columns: 256px 1fr;
+    gap: 2rem;
+    align-items: flex-start; /*serve para manter o tamanho da sidebar que no padrão o grid vai tentar esticar a sidebar*/
+}
+ @media (max-width: 768px){
+    html{
+        font-size: 87.5%;
+    }
+        .wrapper {
+            grid-template-columns: 1fr;
+        }
+    }
+    
+/* 16 -> 100%       14*100/16 = conta para saber quaantos porcentos eu preciso para chegar no 14 px
+   14 - x
+*/
