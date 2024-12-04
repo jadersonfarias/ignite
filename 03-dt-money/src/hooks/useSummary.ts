@@ -29,8 +29,10 @@ export function useSummary() {
       },
     )
   }, [transactions])
- 
+  
+  return summary
 }
+
 
 
 
